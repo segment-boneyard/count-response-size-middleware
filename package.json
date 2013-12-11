@@ -1,0 +1,7 @@
+{
+  "name": "count-response-size-middleware",
+  "private": true,
+  "dependencies": {
+    "defaults": "~1.0.0"
+  }
+}
