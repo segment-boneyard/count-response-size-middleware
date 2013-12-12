@@ -1,5 +1,5 @@
 {
-  "name": "count-response-size-middleware",
+  "name": "s-count-response-size-middleware",
   "dependencies": {
     "defaults": "~1.0.0"
   },
