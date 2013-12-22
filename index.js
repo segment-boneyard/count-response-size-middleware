@@ -1,7 +1,6 @@
 
 var defaults = require('defaults');
 var inherits = require('util').inherits;
-var Transform = require('readable-stream').Transform;
 
 
 /**
