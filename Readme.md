@@ -1,6 +1,6 @@
 # count-response-size-middleware
 
-    Count the content bytes sent for a response.
+  Count the content bytes in each [express](https://github.com/visionmedia/express) response.
 
 ## Example
 
@@ -11,7 +11,7 @@ var app = express();
 app.use(countResponseSize());
 
 app.use(function (req, res, next) {
-    console.log('Sent ' + res._sent_ + ' bytes');
+    console.log('response is  ' + res._sent + ' bytes');
     next();
 });
 ```
@@ -20,10 +20,26 @@ app.use(function (req, res, next) {
 
 ### countResponseSize(options)
 
-    Generate a count response size middleware with custom `options`: 
+  Generate a count response size middleware with `options` defaulting to: 
 
 ```js
 {
-    key: '_received' // save the size as `_received`
+    key: '_sent' // save the size as `_sent`
 }
 ```
+
+## License
+
+```
+WWWWWW||WWWWWW
+ W W W||W W W
+      ||
+    ( OO )__________
+     /  |           \
+    /o o|    MIT     \
+    \___/||_||__||_|| *
+         || ||  || ||
+        _||_|| _||_||
+       (__|__|(__|__|
+```
+
