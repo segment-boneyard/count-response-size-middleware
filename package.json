@@ -1,5 +1,9 @@
 {
   "name": "count-response-size-middleware",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/segmentio/count-response-size-middleware.git"
+  },
   "version": "1.0.1",
   "dependencies": {
     "defaults": "~1.0.0"
